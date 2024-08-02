@@ -1,0 +1,14 @@
+head{
+    background: black;
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    z-index: 5;
+}
+.head{    
+    filter: blur(50px);
+    border-radius: 15px;
+    content: "";
+    animation: spin 2s linear infinit;
+    z-index: 1;
+}
